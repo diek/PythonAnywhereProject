@@ -28,7 +28,7 @@ SECRET_KEY = getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['diek.pythonanywhere.com']
+ALLOWED_HOSTS = ['diek.pythonanywhere.com', '*']
 
 
 # Application definition
